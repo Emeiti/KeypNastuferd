@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "paddel-booking-tracker"
+  },
+  "targets": {
+    "paddel-booking-tracker": {
+      "hosting": {
+        "paddel-booking-tracker": [
+          "keyp-nastuferd"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

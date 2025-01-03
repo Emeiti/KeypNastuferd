@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #2aba6e;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+input {
+  caret-color: var(--color-primary);
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 1px var(--color-primary);
+}
